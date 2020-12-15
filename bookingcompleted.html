@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <title>TransitBoard</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://jackbotein.github.io/fundraise.boston/full-page-scroll.css"
+    />
+  </head>
+  <body>
+    <div id="main" class="scroll-container">
+    <center>               
+ 
+ <section>
+ <h1>Thanks for booking a ride with TransitBoard!</h1>
+ <h2>To activate your board, complete the following steps</h2>
+ <button>Status: incomplete<br>Scan this barcode on the barcode reader on the TransitBoard</button>
+ <br>
+  <button>Status: incomplete<br>Connect to "TransitBoard1" on bluetooth</button>
+  <br>
+   <button>Activate Board</button>
+     <style>
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+  
+  button {
+  font-family: 'Bungee', cursive;
+  color: black;
+  font-size: 1.5vw;
+  margin-left: 13%;
+  margin-right: 13%;
+  }
+  
+  button: hover {
+  background-color: lightblue;
+
+  .toppagespacer {
+  height: 20%;
+  }
+  .maintitle {
+  font-size: 6vw;
+  color: white;
+  font-family: 'Bungee Shade', cursive;
+  }
+  
+  .titledescription {
+  margin-top: 2%;
+  margin-left: 13%;
+  margin-right: 13%;
+  font-size: 2.5vw;
+  color: white;
+  font-family: 'Bungee', cursive;
+  }
+  
+    .downarrow {
+    margin-top: 5%;
+    font-family:'Bungee Shade', cursive;
+    font-size: 10vw;
+    color: white;
+    transition-duration: 2s;
+    }
+    
+    .downarrow:hover {
+    margin-top: 10%;
+    }
+  
+  </style>
+ </section>
+
+
+
+
+
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+        
+        
+        
+        
+        
+      </center>
+    </div>
+    <script src="https://jackbotein.github.io/fundraise.boston/full-page-scroll.js"></script>
+    <script type="text/javascript">
+      new fullScroll({
+        mainElement: "main",
+        displayDots: false,
+        dotsPosition: "left",
+        animateTime: 1.0,
+        animateFunction: "ease",
+      });
+    </script>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+    
+    a {
+    color: white;
+    text-decoration: none;
+    } 
+    
+    span {
+    font-family:'Work Sans', sans-serif;
+    font-size: 1.5vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    }
+    
+    span:hover {
+    text-decoration: underline;
+    }
+    
+    .spacer {
+    font-family:'Work Sans', sans-serif;
+    height: 30%;
+    }
+    .title {
+    font-family:'Work Sans', sans-serif;
+    font-size: 2.5vw;
+    color: black;
+    margin-bottom: .5%;
+    }   
+    
+    .name {
+    font-family:'Bungee Shade', cursive;
+    font-size: 6vw;
+    color: black;
+    transition-duration: 2s;
+    }
+    
+    .heading {
+    font-family:'Bungee Shade', cursive;
+    font-size: 4vw;
+    color: white;
+    }
+
+    h4 {
+    font-family:'Work Sans', sans-serif;
+    }
+    
+  </body>
+</html>
+
