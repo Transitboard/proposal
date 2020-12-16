@@ -12,9 +12,10 @@
     <div id="main" class="scroll-container">
     <center>               
  
- <section>
- <h1>Thanks for booking a ride with TransitBoard!</h1>
- <h2>To activate your board, complete the following steps</h2>
+ <section style="background-color: black">
+ <div class="toppagespacer"></div>
+ <div class="thankyou">Thanks for booking a ride with TransitBoard!</div>
+ <div class="activate">To activate your board, complete the following steps</h2>
  <button>Status: incomplete<br>Scan this barcode on the barcode reader on the TransitBoard</button>
  <br>
   <button>Status: incomplete<br>Connect to "TransitBoard1" on bluetooth</button>
@@ -24,19 +25,38 @@
   @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
   
+  .thankyou {
+  font-family: 'Bungee shade', cursive;
+  color: white;
+  font-size: 2.5vw;
+  }
+  
+  .activate {
+  margin-top: 5%;
+  font-family: 'Bungee', cursive;
+  color: white;
+  font-size: 1.5vw;
+  }
+  
   button {
+  border-width: 0px;
   font-family: 'Bungee', cursive;
   color: black;
   font-size: 1.5vw;
+  margin-top: 1%;
+  margin-bottom: 1%;
   margin-left: 13%;
   margin-right: 13%;
+  background-color: white;
+  transition-duration: 1s;
   }
   
-  button: hover {
+  button:hover {
   background-color: lightblue;
-
+  }
+  
   .toppagespacer {
-  height: 20%;
+  height: 10%;
   }
   .maintitle {
   font-size: 6vw;
